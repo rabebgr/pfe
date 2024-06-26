@@ -5,7 +5,7 @@ $email=$_POST["Email"];
 $Pays=$_POST["Pays"];
 $phone=$_POST["Téléphone"];
 
-$conn = mysqli_connect("127.0.0.1", "root", "", "client");
+$conn = mysqli_connect("localhost", "root", "", "client");
 
 // Check connection
 if (!$conn) {

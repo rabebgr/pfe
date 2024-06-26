@@ -2,7 +2,7 @@
 $last_name=$_POST["Prénom"];
 $email=$_POST["Email"];
 $message=$_POST["Message"];
-$conn = mysqli_connect("127.0.0.1", "root", "", "client");
+$conn = mysqli_connect("localhost", "root", "", "client");
 
 // Check connection
 if (!$conn) {
