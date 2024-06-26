@@ -130,17 +130,17 @@
                         <div class="u-nav-popup">
                           <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="femme.html#sec-39e6">Sac à main</a>
+                              <a class="u-button-style u-nav-link u-white" href="femme.php#sec-39e6">Sac à main</a>
                             </li>
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="femme.html#sec-34ab">Boucle
+                              <a class="u-button-style u-nav-link u-white" href="femme.php#sec-34ab">Boucle
                                 doreille</a>
                             </li>
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="femme.html#sec-d914">Ceinture</a>
+                              <a class="u-button-style u-nav-link u-white" href="femme.php#sec-d914">Ceinture</a>
                             </li>
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="femme.html#sec-b193">Collier</a>
+                              <a class="u-button-style u-nav-link u-white" href="femme.php#sec-b193">Collier</a>
                             </li>
                           </ul>
                         </div>
@@ -206,16 +206,16 @@
                             <div class="u-nav-popup">
                               <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="femme.html#sec-39e6">Sac à main</a>
+                                  <a class="u-button-style u-nav-link" href="femme.php#sec-39e6">Sac à main</a>
                                 </li>
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="femme.html#sec-34ab">Boucle doreille</a>
+                                  <a class="u-button-style u-nav-link" href="femme.php#sec-34ab">Boucle doreille</a>
                                 </li>
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="femme.html#sec-d914">Ceinture</a>
+                                  <a class="u-button-style u-nav-link" href="femme.php#sec-d914">Ceinture</a>
                                 </li>
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="femme.html#sec-b193">Collier</a>
+                                  <a class="u-button-style u-nav-link" href="femme.php#sec-b193">Collier</a>
                                 </li>
                               </ul>
                             </div>
