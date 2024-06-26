@@ -8,7 +8,6 @@ $conn = mysqli_connect("127.0.0.1", "root", "", "client");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-sqsqsqs
 
 $sql = "INSERT INTO contacter (Prénom, Email, Message) VALUES (?, ?, ?)";
 $stmt = mysqli_prepare($conn, $sql);
