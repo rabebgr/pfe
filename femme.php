@@ -126,7 +126,7 @@
                   <div class="u-nav-popup">
                     <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                       <li class="u-nav-item">
-                        <a class="u-button-style u-nav-link u-white" href="#">Femme</a>
+                        <a class="u-button-style u-nav-link u-white" href="femme.php">Femme</a>
                         <div class="u-nav-popup">
                           <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                             <li class="u-nav-item">
@@ -146,18 +146,18 @@
                         </div>
                       </li>
                       <li class="u-nav-item">
-                        <a class="u-button-style u-nav-link u-white" href="Fille.html">Fille</a>
+                        <a class="u-button-style u-nav-link u-white" href="fille.php">Fille</a>
                         <div class="u-nav-popup">
                           <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="Fille.html#sec-04c6">Sac à main</a>
+                              <a class="u-button-style u-nav-link u-white" href="fille.php#sec-04c6">Sac à main</a>
                             </li>
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="Fille.html#sec-ed62">Collier et
+                              <a class="u-button-style u-nav-link u-white" href="fille.php#sec-ed62">Collier et
                                 Brassler</a>
                             </li>
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="Fille.html#sec-6b2d">Boucle
+                              <a class="u-button-style u-nav-link u-white" href="fille.php#sec-6b2d">Boucle
                                 D'oreille</a>
                             </li>
                           </ul>
@@ -168,10 +168,10 @@
                         <div class="u-nav-popup">
                           <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="Fille.html#sec-957e">Port de clé</a>
+                              <a class="u-button-style u-nav-link u-white" href="fille.php#sec-957e">Port de clé</a>
                             </li>
                             <li class="u-nav-item">
-                              <a class="u-button-style u-nav-link u-white" href="Fille.html#sec-a7d9">Accessoire
+                              <a class="u-button-style u-nav-link u-white" href="fille.php#sec-a7d9">Accessoire
                                 télèphone</a>
                             </li>
                           </ul>
@@ -202,7 +202,7 @@
                       <div class="u-nav-popup">
                         <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                           <li class="u-nav-item">
-                            <a class="u-button-style u-nav-link" href="#">Femme</a>
+                            <a class="u-button-style u-nav-link" href="femme.php">Femme</a>
                             <div class="u-nav-popup">
                               <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                 <li class="u-nav-item">
@@ -221,18 +221,18 @@
                             </div>
                           </li>
                           <li class="u-nav-item">
-                            <a class="u-button-style u-nav-link" href="Fille.html">Fille</a>
+                            <a class="u-button-style u-nav-link" href="fille.php">Fille</a>
                             <div class="u-nav-popup">
                               <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="Fille.html#sec-04c6">Sac à main</a>
+                                  <a class="u-button-style u-nav-link" href="fille.php#sec-04c6">Sac à main</a>
                                 </li>
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="Fille.html#sec-ed62">Collier et
+                                  <a class="u-button-style u-nav-link" href="fille.php#sec-ed62">Collier et
                                     Brassler</a>
                                 </li>
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="Fille.html#sec-6b2d">Boucle D'oreille</a>
+                                  <a class="u-button-style u-nav-link" href="fille.php#sec-6b2d">Boucle D'oreille</a>
                                 </li>
                               </ul>
                             </div>
@@ -242,10 +242,10 @@
                             <div class="u-nav-popup">
                               <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="Fille.html#sec-957e">Port de clé</a>
+                                  <a class="u-button-style u-nav-link" href="fille.php#sec-957e">Port de clé</a>
                                 </li>
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="Fille.html#sec-a7d9">Accessoire
+                                  <a class="u-button-style u-nav-link" href="fille.php#sec-a7d9">Accessoire
                                     télèphone</a>
                                 </li>
                               </ul>
@@ -273,7 +273,6 @@
       <!--products--><!--products_options_json--><!--{"type":"Recent","source":"","tags":"","count":""}--><!--/products_options_json-->
       <div class="custom-expanded u-layout-grid u-products u-products-1" data-site-sorting-prop="created"
         data-site-sorting-order="desc" data-items-per-page="4">
-        <div class="u-list-control"></div>
         <div class="u-repeater u-repeater-1">
 
 
@@ -293,8 +292,7 @@
           <?php
 
           // Read the JSON file  
-          $json = file_get_contents('prods.json');
-          echo gettype($json);
+          $json = file_get_contents('products/prod-femme.json');
           // Decode the JSON file 
           $json_data = json_decode($json, true);
           // Example: Loop through each item

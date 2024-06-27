@@ -35,6 +35,15 @@
     <meta property="og:type" content="website">
 
     <script>
+        function addToCart() {
+            const product = getProductFromLocalStorage();
+            const cart = JSON.parse(localStorage.getItem("cart")) || [];
+            cart.push(product);
+            localStorage.setItem("cart", JSON.stringify(cart));
+            console.log(cart.length);
+            // window.location.href = "cart.php";
+
+        }
         function getProductFromLocalStorage() {
             const product = JSON.parse(localStorage.getItem("product"));
             console.log(product);
@@ -75,7 +84,23 @@
 </head>
 
 <body class="u-body u-xl-mode">
-    <div id="product-container">zzzzzzzz</div>
+
+
+
+    <section class="u-clearfix u-custom-color-2 u-lightbox u-section-1" id="sec-39e6">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <!--products--><!--products_options_json--><!--{"type":"Recent","source":"","tags":"","count":""}--><!--/products_options_json-->
+            <div class="custom-expanded u-layout-grid u-products u-products-1" data-site-sorting-prop="created"
+                data-site-sorting-order="desc" data-items-per-page="4">
+                <div id="product-container"></div>
+                <button onclick="addToCart()"
+                    class="u-border-none u-btn u-button-style u-grey-90 u-hover-grey-40 u-btn-1">Ajouter au panier
+                </button>
+            </div>
+            <!--/products-->
+        </div>
+    </section>
+
 
 </body>
 

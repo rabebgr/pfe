@@ -4,46 +4,34 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="utf-8" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <title>Contact</title>
+  <meta name="keywords" content />
+  <meta name="description" content />
+  <title>Fille</title>
   <link rel="stylesheet" href="nicepage.css" media="screen" />
-  <link rel="stylesheet" href="Contact.css" media="screen" />
-  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-  <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+  <link rel="stylesheet" href="Fille.css" media="screen" />
+  <script class="u-script" type="text/javascript" src="jquery.js" defer></script>
+  <script class="u-script" type="text/javascript" src="nicepage.js" defer></script>
   <meta name="generator" content="Nicepage 6.5.3, nicepage.com" />
   <meta name="referrer" content="origin" />
   <link id="u-theme-google-font" rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" />
   <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:400" />
 
-  <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Copie de Site1",
-        "logo": "images/logoPNG.png",
-        "sameAs": [
-          "https://www.facebook.com/profile.php?id=61552121878099&sk=about",
-          "https://www.instagram.com/accessoiresrg/",
-          "https://www.tiktok.com/@rg.accessoires6"
-        ]
-      }
-    </script>
+  <script type="application/ld+json"></script>
   <meta name="theme-color" content="#478ac9" />
-  <meta property="og:title" content="Contact" />
-  <meta property="og:description" content="" />
+  <meta property="og:title" content="Fille" />
+  <meta property="og:description" content />
   <meta property="og:type" content="website" />
   <meta data-intl-tel-input-cdn-path="intlTelInput/" />
 </head>
 
 <body data-path-to-root="./" data-include-products="true" class="u-body u-xl-mode" data-lang="fr">
   <header class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-header u-section-row-container"
-    id="sec-0995" data-animation-name="" data-animation-duration="0" data-animation-delay="0"
-    data-animation-direction="" style="">
+    id="sec-0995" data-animation-name data-animation-duration="0" data-animation-delay="0" data-animation-direction
+    style>
     <div class="u-section-rows">
-      <div class="u-section-row" data-animation-name="" data-animation-duration="0" data-animation-delay="0"
-        data-animation-direction="" id="sec-9f42">
+      <div class="u-section-row" data-animation-name data-animation-duration="0" data-animation-delay="0"
+        data-animation-direction id="sec-9f42">
         <div class="u-clearfix u-sheet u-sheet-1">
           <p class="u-align-center u-text u-text-1">RG Accessories</p>
           <form action="#" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
@@ -61,34 +49,34 @@
                 </svg>
               </span>
             </button>
-            <input class="u-search-input" type="search" name="search" value="" placeholder="Search" />
+            <input class="u-search-input" type="search" name="search" value placeholder="Search" />
           </form>
           <a href="Accueil.html" class="u-image u-logo u-image-1" data-image-width="3809" data-image-height="4752"
             title="Accueil">
             <img src="images/logoPNG.png" class="u-logo-image u-logo-image-1" /> </a><span class="u-icon u-icon-1"
             data-href="Contact.html#sec-9c29"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice"
-              viewBox="0 0 53 53" style="">
+              viewBox="0 0 53 53" style>
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-13a8"></use>
             </svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
               xml:space="preserve" class="u-svg-content" viewBox="0 0 53 53" x="0px" y="0px" id="svg-13a8"
               style="enable-background: new 0 0 53 53">
               <path style="fill: #e7eced" d="M18.613,41.552l-7.907,4.313c-0.464,0.253-0.881,0.564-1.269,0.903C14.047,50.655,19.998,53,26.5,53
-	c6.454,0,12.367-2.31,16.964-6.144c-0.424-0.358-0.884-0.68-1.394-0.934l-8.467-4.233c-1.094-0.547-1.785-1.665-1.785-2.888v-3.322
-	c0.238-0.271,0.51-0.619,0.801-1.03c1.154-1.63,2.027-3.423,2.632-5.304c1.086-0.335,1.886-1.338,1.886-2.53v-3.546
-	c0-0.78-0.347-1.477-0.886-1.965v-5.126c0,0,1.053-7.977-9.75-7.977s-9.75,7.977-9.75,7.977v5.126
-	c-0.54,0.488-0.886,1.185-0.886,1.965v3.546c0,0.934,0.491,1.756,1.226,2.231c0.886,3.857,3.206,6.633,3.206,6.633v3.24
-	C20.296,39.899,19.65,40.986,18.613,41.552z"></path>
+  c6.454,0,12.367-2.31,16.964-6.144c-0.424-0.358-0.884-0.68-1.394-0.934l-8.467-4.233c-1.094-0.547-1.785-1.665-1.785-2.888v-3.322
+  c0.238-0.271,0.51-0.619,0.801-1.03c1.154-1.63,2.027-3.423,2.632-5.304c1.086-0.335,1.886-1.338,1.886-2.53v-3.546
+  c0-0.78-0.347-1.477-0.886-1.965v-5.126c0,0,1.053-7.977-9.75-7.977s-9.75,7.977-9.75,7.977v5.126
+  c-0.54,0.488-0.886,1.185-0.886,1.965v3.546c0,0.934,0.491,1.756,1.226,2.231c0.886,3.857,3.206,6.633,3.206,6.633v3.24
+  C20.296,39.899,19.65,40.986,18.613,41.552z"></path>
               <g>
                 <path style="fill: #556080" d="M26.953,0.004C12.32-0.246,0.254,11.414,0.004,26.047C-0.138,34.344,3.56,41.801,9.448,46.76
-		c0.385-0.336,0.798-0.644,1.257-0.894l7.907-4.313c1.037-0.566,1.683-1.653,1.683-2.835v-3.24c0,0-2.321-2.776-3.206-6.633
-		c-0.734-0.475-1.226-1.296-1.226-2.231v-3.546c0-0.78,0.347-1.477,0.886-1.965v-5.126c0,0-1.053-7.977,9.75-7.977
-		s9.75,7.977,9.75,7.977v5.126c0.54,0.488,0.886,1.185,0.886,1.965v3.546c0,1.192-0.8,2.195-1.886,2.53
-		c-0.605,1.881-1.478,3.674-2.632,5.304c-0.291,0.411-0.563,0.759-0.801,1.03V38.8c0,1.223,0.691,2.342,1.785,2.888l8.467,4.233
-		c0.508,0.254,0.967,0.575,1.39,0.932c5.71-4.762,9.399-11.882,9.536-19.9C53.246,12.32,41.587,0.254,26.953,0.004z">
+    c0.385-0.336,0.798-0.644,1.257-0.894l7.907-4.313c1.037-0.566,1.683-1.653,1.683-2.835v-3.24c0,0-2.321-2.776-3.206-6.633
+    c-0.734-0.475-1.226-1.296-1.226-2.231v-3.546c0-0.78,0.347-1.477,0.886-1.965v-5.126c0,0-1.053-7.977,9.75-7.977
+    s9.75,7.977,9.75,7.977v5.126c0.54,0.488,0.886,1.185,0.886,1.965v3.546c0,1.192-0.8,2.195-1.886,2.53
+    c-0.605,1.881-1.478,3.674-2.632,5.304c-0.291,0.411-0.563,0.759-0.801,1.03V38.8c0,1.223,0.691,2.342,1.785,2.888l8.467,4.233
+    c0.508,0.254,0.967,0.575,1.39,0.932c5.71-4.762,9.399-11.882,9.536-19.9C53.246,12.32,41.587,0.254,26.953,0.004z">
                 </path>
               </g>
             </svg></span><span class="u-file-icon u-icon u-icon-2" data-href="Contact.html#carousel_3768"><img
-              src="images/8021725.png" alt="" /></span>
+              src="images/8021725.png" alt /></span>
         </div>
       </div>
       <div class="u-custom-color-3 u-section-row u-section-row-2" id="sec-68d8">
@@ -227,7 +215,8 @@
                                   <a class="u-button-style u-nav-link" href="fille.php#sec-04c6">Sac à main</a>
                                 </li>
                                 <li class="u-nav-item">
-                                  <a class="u-button-style u-nav-link" href="fille.php#sec-ed62">Collier et Brassler</a>
+                                  <a class="u-button-style u-nav-link" href="fille.php#sec-ed62">Collier et
+                                    Brassler</a>
                                 </li>
                                 <li class="u-nav-item">
                                   <a class="u-button-style u-nav-link" href="fille.php#sec-6b2d">Boucle D'oreille</a>
@@ -265,154 +254,74 @@
       </div>
     </div>
   </header>
-  <section class="u-clearfix u-custom-color-2 u-section-1" id="sec-9c29">
-    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-      <h1 class="u-text u-text-default u-text-1">Inscription</h1>
-      <div class="u-form u-form-1">
-        <form action="inscrit.php" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" name="f"
-          method="post" style="padding: 10px">
-          <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-1">
-            <label for="name-a570" class="u-label">Nom</label>
-            <input type="text" placeholder="Saisir votre Nom" id="name-a570" name="Nom"
-              class="u-input u-input-rectangle" required="" />
-          </div>
-          <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-2">
-            <label for="name-a570" class="u-label">Prénom</label>
-            <input type="text" placeholder="Saisir votre Prénom" id="name-a570" name="Prénom"
-              class="u-input u-input-rectangle" required="" />
-          </div>
-          <div class="u-form-email u-form-group">
-            <label for="email-7d37" class="u-label">Email</label>
-            <input type="email" placeholder="Saisir une adresse mail valide" id="email-7d37" name="Email"
-              class="u-input u-input-rectangle" required="" />
-          </div>
-          <div class="u-form-country u-form-group u-form-group-4">
-            <label for="country-59f0" class="u-label">Pays</label>
-            <div class="u-form-select-wrapper">
-              <select id="country-59f0" name="Pays" class="u-input u-input-rectangle">
-                <option value="United States">United States</option>
-              </select>
-              <svg class="u-caret u-caret-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
-                viewBox="0 0 16 16" style="fill: currentColor" xml:space="preserve">
-                <polygon class="st0" points="8,12 2,4 14,4 "></polygon>
-              </svg>
-            </div>
-          </div>
-          <div class="u-form-group u-form-phone u-form-group-5">
-            <label for="phone-3317" class="u-label">Téléphone</label>
-            <input type="tel" placeholder="Saisir votre téléphone (par ex +330600000000)" id="phone-3317"
-              name="Téléphone" class="u-input u-input-rectangle" required="" />
-          </div>
-          <div class="u-align-center u-form-group u-form-submit">
-            <a href="#"
-              class="u-active-custom-color-1 u-btn u-btn-submit u-button-style u-custom-color-3 u-btn-1">Envoyer
-            </a>
-            <input type="submit" value="Envoyer" class="u-form-control-hidden" />
-          </div>
-          <div class="u-form-send-message u-form-send-success">
-            Merci ! Votre message a été envoyé.
-          </div>
-          <div class="u-form-send-error u-form-send-message">
-            Impossible d'envoyer votre message. Merci de corriger les erreurs
-            et réessayer.
-          </div>
-          <input type="hidden" value="" name="recaptchaResponse" />
-          <input type="hidden" name="formServices" value="14135c63-bb8a-7d79-12d9-6cdfbcdd9df7" />
-        </form>
-      </div>
-    </div>
-  </section>
-  <section class="u-clearfix u-custom-color-2 u-section-2" id="carousel_3768">
+
+  <section class="u-clearfix u-custom-color-2 u-lightbox u-section-1" id="sec-39e6">
     <div class="u-clearfix u-sheet u-sheet-1">
-      <h2 class="u-text u-text-default u-text-1">Contacter Nous</h2>
-      <div class="u-custom-color-3 u-form u-form-1">
-        <form action="contact.php" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email"
-          name="f" method="post" style="padding: 10px">
-          <div class="u-form-group u-form-name">
-            <label for="name-2f1d" class="u-label">Prénom</label>
-            <input type="text" placeholder="Saisir votre Prénom" id="name-2f1d" name="Prénom"
-              class="u-input u-input-rectangle" required="" />
-          </div>
-          <div class="u-form-email u-form-group">
-            <label for="email-2f1d" class="u-label">Email</label>
-            <input type="email" placeholder="Saisir une adresse mail valide" id="email-2f1d" name="Email"
-              class="u-input u-input-rectangle" required="" />
-          </div>
-          <div class="u-form-group u-form-message">
-            <label for="message-2f1d" class="u-label">Message</label>
-            <textarea placeholder="Saisir votre message" rows="4" cols="50" id="message-2f1d" name="Message"
-              class="u-input u-input-rectangle" required=""></textarea>
-          </div>
-          <div class="u-align-center u-form-group u-form-submit">
-            <a href="#"
-              class="u-active-custom-color-1 u-btn u-btn-submit u-button-style u-custom-color-3 u-btn-1">Envoyer
-            </a>
-            <input type="submit" value="Envoyer" class="u-form-control-hidden" />
-          </div>
-          <div class="u-form-send-message u-form-send-success">
-            Merci ! Votre message a été envoyé.
-          </div>
-          <div class="u-form-send-error u-form-send-message">
-            Impossible d'envoyer votre message. Merci de corriger les erreurs
-            et réessayer.
-          </div>
-          <input type="hidden" value="" name="recaptchaResponse" />
-          <input type="hidden" name="formServices" value="14135c63-bb8a-7d79-12d9-6cdfbcdd9df7" />
-        </form>
-      </div>
-      <div class="custom-expanded u-list u-list-1">
+      <!--products--><!--products_options_json--><!--{"type":"Recent","source":"","tags":"","count":""}--><!--/products_options_json-->
+      <div class="custom-expanded u-layout-grid u-products u-products-1" data-site-sorting-prop="created"
+        data-site-sorting-order="desc" data-items-per-page="4">
         <div class="u-repeater u-repeater-1">
-          <div class="u-container-style u-custom-color-3 u-list-item u-repeater-item u-list-item-1">
-            <div class="u-container-layout u-similar-container u-container-layout-1">
-              <h5 class="u-align-left u-text u-text-2">
-                <span class="u-file-icon u-icon u-text-palette-3-base"><img src="images/3059407-a33608e5.png"
-                    alt="" /></span>&nbsp;NUMERO
-              </h5>
-              <p class="u-align-center u-text u-text-3">+216 96 855 980</p>
-            </div>
-          </div>
-          <div class="u-container-style u-custom-color-3 u-list-item u-repeater-item u-list-item-2">
-            <div class="u-container-layout u-similar-container u-container-layout-2">
-              <h5 class="u-align-left u-text u-text-4">
-                <span class="u-file-icon u-icon u-text-palette-3-base"><img src="images/535239-5de83b82.png"
-                    alt="" /></span>&nbsp;LoCALISATION
-              </h5>
-              <p class="u-align-center u-text u-text-5">
-                Ghomrassen , Cité Nouvelle ,3220
-              </p>
-            </div>
-          </div>
-          <div class="u-container-style u-custom-color-3 u-list-item u-repeater-item u-list-item-3">
-            <div class="u-container-layout u-similar-container u-container-layout-3">
-              <h5 class="u-align-left u-text u-text-6">
-                <span class="u-file-icon u-icon u-text-palette-3-base u-icon-3"><img src="images/2841985-7e11ec36.png"
-                    alt="" /></span>heure de travail
-              </h5>
-              <p class="u-align-center u-text u-text-7">
-                Tous les jours à 8h jusqu'a 16h
-              </p>
-            </div>
-          </div>
+
+
+          <script>
+            function setProductInLocalStorage(product) {
+              console.log(product);
+              console.log('setProductInLocalStorage');
+              localStorage.setItem("product", JSON.stringify(product));
+              setTimeout(() => {
+                window.location.href = 'product-page.php'
+              }, 200);
+
+            }
+
+          </script>
+          <!-- PHP  -->
+          <?php
+
+          // Read the JSON file  
+          $json = file_get_contents('products/prod-file.json');
+          // Decode the JSON file 
+          $json_data = json_decode($json, true);
+          // Example: Loop through each item
+          foreach ($json_data as $item) {
+            $productJson = htmlspecialchars(json_encode($item), ENT_QUOTES, 'UTF-8');
+
+            echo '  <div class="u-align-center u-container-style u-products-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <img class="u-border-2 u-border-grey-75 u-image u-image-default u-image-1"
+                  src=" ' . $item["image"] . '" alt="" data-image-width="1280"
+                  data-image-height="960" data-animation-out="0" />
+                <p class="u-align-center u-text u-text-default u-text-1">
+                  ' . $item["name"] . '
+                </p>
+                <!--product_price-->
+                <div class="u-product-control u-product-price u-product-price-1" data-add-zero-cents="false">
+                  <div class="u-price-wrapper">
+                    <!--product_old_price-->
+                    <div class="u-old-price" style="text-decoration: line-through !important">
+                      <!--product_old_price_content-->$20.00<!--/product_old_price_content-->
+                    </div>
+                    <!--/product_old_price--><!--product_regular_price-->
+                    <div class="u-price" style="font-size: 1.25rem; font-weight: 700">
+                      <!--product_regular_price_content--> ' . $item["price"] . ' <!--/product_regular_price_content-->
+                    </div>
+                    <!--/product_regular_price-->
+                  </div>
+                </div>
+                <!--/product_price-->
+                  <button onclick=\'setProductInLocalStorage(' . $productJson . ')\'
+          class="u-border-none u-btn u-button-style u-grey-90 u-hover-grey-40 u-btn-1">Achat</button>
+       </div>
+            </div>';
+          }
+
+          ?>
+
+          <!--/product_item-->
         </div>
+        <div class="u-list-control"></div>
       </div>
-    </div>
-  </section>
-  <section class="u-clearfix u-custom-color-2 u-section-3" id="sec-2ca4">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-container-style u-custom-color-3 u-group u-radius u-shape-round u-group-1">
-        <div class="u-container-layout u-container-layout-1">
-          <p class="u-text u-text-default u-text-1">
-            Nous contacterNous aimons entendre nos clients et sommes toujours
-            disponibles pour répondre à vos questions ou préoccupations.
-            N'hésitez pas à nous contacter via rgaccessoires@gmail.com&nbsp;ou
-            à visiter notre page RG Accessories pour plus d'informations.Merci
-            de votre visite et de votre soutien à RG Accessories. Nous sommes
-            ravis de partager notre passion pour l'artisanat et le design avec
-            vous !
-          </p>
-        </div>
-      </div>
+      <!--/products-->
     </div>
   </section>
 
@@ -422,7 +331,7 @@
         <a class="u-social-url" title="facebook" target="_blank"
           href="https://www.facebook.com/profile.php?id=61552121878099&amp;sk=about"><span
             class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link"
-              preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+              preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style>
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3309"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-3309">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -432,7 +341,7 @@ c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path>
         </a>
         <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/accessoiresrg/"><span
             class="u-icon u-social-icon u-social-instagram u-icon-2"><svg class="u-svg-link"
-              preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+              preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style>
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-07e9"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-07e9">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -449,20 +358,20 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path>
         <a class="u-social-url" target="_blank" data-type="Custom" title="tiktok"
           href="https://www.tiktok.com/@rg.accessoires6"><span
             class="u-file-icon u-icon u-social-custom u-social-icon u-icon-3"><img src="images/3621471.png"
-              alt="" /></span>
+              alt /></span>
         </a>
       </div>
     </div>
   </footer>
   <section class="u-backlink u-clearfix u-grey-80">
-    <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-      <span>Website Templates</span>
+    <a class="u-link" href="https://nicepage.com/web-design" target="_blank">
+      <span>Responsive Web Design</span>
     </a>
     <p class="u-text">
       <span>created with</span>
     </p>
-    <a class="u-link" href="" target="_blank">
-      <span>Website Builder Software</span> </a>.
+    <a class="u-link" href target="_blank">
+      <span>WYSIWYG Web Builder</span> </a>.
   </section>
   <span style="
         height: 64px;
