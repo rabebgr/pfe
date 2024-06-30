@@ -8,7 +8,7 @@ $conn = mysqli_connect("localhost", "root", "", "client");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-function insertData($conn, $checkoutData, $checkoutProductsData)
+function insertData($conn, $checkoutData)
 {
     // Start transaction
     $conn->begin_transaction();
@@ -75,7 +75,7 @@ $checkoutProductsData = [
 
 // Insert data
 try {
-    insertData($conn, $checkoutData, $checkoutProductsData);
+    insertData($conn, $checkoutData);
     echo "Data inserted successfully.";
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
