@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Sparkling Sapphire Earrings",
     "description": "Elegant dangle earrings featuring shimmering sapphires set in sterling silver",
     "price": 129.99,
@@ -7,6 +8,7 @@
     "category": "Earrings"
   },
   {
+    "id": 2,
     "name": "Classic Gold Necklace",
     "description": "A timeless 14k yellow gold chain, perfect for layering or wearing alone",
     "price": 199.99,
@@ -14,6 +16,7 @@
     "category": "Necklaces"
   },
   {
+    "id": 3,
     "name": "Men's Leather Bracelet with Silver Clasp",
     "description": "A rugged yet stylish bracelet featuring braided black leather and a polished silver clasp",
     "price": 79.99,
@@ -21,6 +24,7 @@
     "category": "Bracelets"
   },
   {
+    "id": 4,
     "name": "Birthstone Pendant (Select Month)",
     "description": "Delicate sterling silver pendant featuring your choice of birthstone",
     "price": 49.99,
@@ -28,6 +32,7 @@
     "category": "Necklaces"
   },
   {
+    "id": 5,
     "name": "Pearl and Diamond Cocktail Ring",
     "description": "A statement piece for any occasion, featuring a luminous pearl accented with sparkling diamonds",
     "price": 499.99,
@@ -35,6 +40,7 @@
     "category": "Rings"
   },
   {
+    "id": 6,
     "name": "Stackable Sterling Silver Rings (Set of 3)",
     "description": "Mix and match these charming sterling silver rings with intricate designs",
     "price": 89.99,
@@ -43,6 +49,7 @@
     "category": "Rings"
   },
   {
+    "id": 7,
     "name": "Tree of Life Charm for Bracelet or Necklace",
     "description": "A meaningful charm with a tree of life symbol, available in silver or gold",
     "price": 29.99,

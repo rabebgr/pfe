@@ -291,15 +291,26 @@
           <!-- PHP  -->
           <?php
 
-          // Read the JSON file  
-          $json = file_get_contents('products/prod-femme.json');
-          // Decode the JSON file 
-          $json_data = json_decode($json, true);
-          // Example: Loop through each item
-          foreach ($json_data as $item) {
-            $productJson = htmlspecialchars(json_encode($item), ENT_QUOTES, 'UTF-8');
+          $conn = mysqli_connect("localhost", "root", "", "client");
 
-            echo '  <div class="u-align-center u-container-style u-products-item u-repeater-item">
+          // Check connection
+          if (!$conn) {
+            die("Connection failed: " . mysqli_connect_error());
+          }
+
+          $sql = "SELECT *  FROM products where type = 'f'";
+
+          $result = $conn->query($sql);
+
+          // Bind parameters (prevents SQL injection)
+          if ($result->num_rows > 0) {
+            while ($item = $result->fetch_assoc()) {
+
+              // Read the JSON file  
+          
+              $productJson = htmlspecialchars(json_encode($item), ENT_QUOTES, 'UTF-8');
+
+              echo '  <div class="u-align-center u-container-style u-products-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-1">
                 <img class="u-border-2 u-border-grey-75 u-image u-image-default u-image-1"
                   src=" ' . $item["image"] . '" alt="" data-image-width="1280"
@@ -326,8 +337,8 @@
           class="u-border-none u-btn u-button-style u-grey-90 u-hover-grey-40 u-btn-1">Achat</button>
        </div>
             </div>';
+            }
           }
-
           ?>
 
           <!--/product_item-->

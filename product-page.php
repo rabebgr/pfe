@@ -96,6 +96,10 @@
                 <button onclick="addToCart()"
                     class="u-border-none u-btn u-button-style u-grey-90 u-hover-grey-40 u-btn-1">Ajouter au panier
                 </button>
+                <button onclick="window.location.href = 'cart.php';">Voir le panier</button>
+                <button onclick="
+                history.back()
+                ">Retour </button>
             </div>
             <!--/products-->
         </div>

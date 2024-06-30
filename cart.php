@@ -295,6 +295,14 @@
     <h1>Your Shopping Cart</h1>
 
     <script>
+        removeProductFromLocalStorage = (i) => {
+
+            const product = JSON.parse(localStorage.getItem("cart"));
+            console.log(product);
+            product.splice(i, 1);
+            localStorage.setItem("cart", JSON.stringify(product));
+            window.location.reload();
+        }
         function getProductFromLocalStorage() {
             const product = JSON.parse(localStorage.getItem("cart"));
             console.log(product);
@@ -310,7 +318,9 @@
             <img style="width: 200px;" src="${product[i].image}"alt="Product Image">
             <h3>${product[i].name}</h3>
             <p>$${product[i].price}</p>
-            <button>Remove</button>
+            <button
+            onclick="removeProductFromLocalStorage(${i})"'
+            >Supprimer</button>
         </div>
        
     </div>
