@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 30, 2024 at 08:58 PM
+-- Generation Time: Jun 30, 2024 at 09:26 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -54,7 +54,16 @@ INSERT INTO `checkout` (`id`, `customer_id`, `checkout_date`, `total_amount`, `N
 (12, 123, '2024-06-30 18:37:03', 309.97, 'Saif Eddine Mogaadi', 'zazaz', 'mogaadisaif7@gmail.com', 'United States', '      +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
 (13, 123, '2024-06-30 18:37:20', 309.97, 'Saif Eddine Mogaadi', 'zazaz', 'mogaadisaif7@gmail.com', 'United States', '       +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
 (14, 123, '2024-06-30 18:37:53', 309.97, 'Saif Eddine Mogaadi', 'zazaz', 'mogaadisaif7@gmail.com', 'United States', '        +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
-(15, 123, '2024-06-30 18:41:41', 309.97, 'Saif Eddine Mogaadi', 'zazaz', 'mogaadisaif7@gmail.com', 'United States', '         +21653376935', 'menzel bourguiba , bizerte , tunisia', 0);
+(15, 123, '2024-06-30 18:41:41', 309.97, 'Saif Eddine Mogaadi', 'zazaz', 'mogaadisaif7@gmail.com', 'United States', '         +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(16, 123, '2024-06-30 19:02:22', 309.97, 'Saif Eddine Mogaadi', 'ezezeze', 'mogaadisaif7@gmail.com', 'United States', ' +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(17, 123, '2024-06-30 19:03:23', 309.97, 'Saif Eddine Mogaadi', 'ezezeze', 'mogaadisaif7@gmail.com', 'United States', '  +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(18, 123, '2024-06-30 19:04:19', 309.97, 'Saif Eddine Mogaadi', 'ezezeze', 'mogaadisaif7@gmail.com', 'United States', '   +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(19, 123, '2024-06-30 19:05:42', 309.97, 'Saif Eddine Mogaadi', 'ezezeze', 'mogaadisaif7@gmail.com', 'United States', '    +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(20, 123, '2024-06-30 19:08:19', 309.97, 'Saif Eddine Mogaadi', 'ezezeze', 'mogaadisaif7@gmail.com', 'United States', '     +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(21, 123, '2024-06-30 19:10:00', 309.97, 'Saif Eddine Mogaadi', 'ezezeze', 'mogaadisaif7@gmail.com', 'United States', '      +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(22, 123, '2024-06-30 19:10:12', 309.97, 'Saif Eddine Mogaadi', 'ezezeze', 'mogaadisaif7@gmail.com', 'United States', '       +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(23, 123, '2024-06-30 19:11:49', 309.97, 'Saif Eddine Mogaadi', 'sqsqsqs', 'mogaadisaif7@gmail.com', 'United States', ' +21653376935', 'menzel bourguiba , bizerte , tunisia', 0),
+(24, 123, '2024-06-30 19:18:27', 209.98, 'Saif Eddine Mogaadi', 'sqsqsqs', 'mogaadisaif7@gmail.com', 'United States', '  +21653376935', 'menzel bourguiba , bizerte , tunisia', 0);
 
 -- --------------------------------------------------------
 
@@ -91,7 +100,27 @@ INSERT INTO `checkout_products` (`id`, `quantity`, `checkout_id`, `product_id`) 
 (22, 2, 14, 1),
 (23, 1, 14, 3),
 (24, 2, 15, 1),
-(25, 1, 15, 3);
+(25, 1, 15, 3),
+(26, 2, 16, 1),
+(27, 1, 16, 3),
+(28, 2, 17, 1),
+(29, 1, 17, 3),
+(30, 2, 18, 1),
+(31, 1, 18, 3),
+(32, 2, 19, 1),
+(33, 1, 19, 3),
+(34, 0, 21, 3),
+(35, 0, 21, 3),
+(36, 0, 21, 3),
+(37, 0, 21, 3),
+(38, 0, 22, 3),
+(39, 0, 22, 3),
+(40, 0, 22, 3),
+(41, 0, 22, 3),
+(42, 0, 23, 3),
+(43, 0, 23, 1),
+(44, 0, 24, 3),
+(45, 0, 24, 1);
 
 -- --------------------------------------------------------
 
@@ -224,13 +253,13 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `checkout`
 --
 ALTER TABLE `checkout`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `checkout_products`
 --
 ALTER TABLE `checkout_products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT for table `products`
