@@ -14,6 +14,8 @@ function insertData($conn, $checkoutData, $checkoutProductsData)
     $conn->begin_transaction();
 
     try {
+        $total_price = 0.0;
+
         $name = $_POST["Nom"];
         $last_name = $_POST["Prénom"];
         $email = $_POST["Email"];
@@ -23,9 +25,12 @@ function insertData($conn, $checkoutData, $checkoutProductsData)
         $products = $_POST["products"];
         $productsData = json_decode($products, true);
         echo gettype($productsData);
+        foreach ($productsData as $cp) {
+            $total_price += $cp['price'];
+        }
         // Insert data into checkout table
         $stmt = $conn->prepare("INSERT INTO checkout ( customer_id,  total_amount, Nom, Prénom, Email, Pays, Téléphone, addresse  ) VALUES (  ?, ?, ?,?, ?, ?, ?, ?)");
-        $stmt->bind_param("idssssss", $checkoutData['customer_id'], $checkoutData['total_amount'], $name, $last_name, $email, $Pays, $phone, $address);
+        $stmt->bind_param("idssssss", $checkoutData['customer_id'], $total_price, $name, $last_name, $email, $Pays, $phone, $address);
         $stmt->execute();
         $checkout_id = $stmt->insert_id;
         $stmt->close();
@@ -35,6 +40,7 @@ function insertData($conn, $checkoutData, $checkoutProductsData)
         // Insert data into checkout_products table
         $stmt = $conn->prepare("INSERT INTO checkout_products ( checkout_id,product_id ) VALUES (?, ?)");
         foreach ($productsData as $cp) {
+            $total_price += $cp['price'];
             $stmt->bind_param("ii", $checkout_id, $cp['id']);
             $stmt->execute();
         }
