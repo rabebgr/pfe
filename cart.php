@@ -340,8 +340,7 @@
     <section class="u-clearfix u-section-2">
         <h2>Cart Summary</h2>
         <div style=" display: flex; " id="cart-item"></div>
-        <a href='checkout.html' class="u-btn u-btn-round u-button-style u-custom-color-3 u-radius-50 u-btn-1">Proceed to
-            Checkout</a>
+        <a href='checkout.html' class="u-btn u-btn-round u-button-style u-custom-color-3 u-radius-50 u-btn-1">Vérifier</a>
     </section>
 
     <footer class="u-align-center u-clearfix u-custom-color-2 u-footer u-footer" id="sec-ab3f">
