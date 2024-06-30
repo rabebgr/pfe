@@ -1,4 +1,5 @@
 <?php
+// $productsData = json_decode($products, true);
 
 
 $conn = mysqli_connect("localhost", "root", "", "client");
@@ -7,34 +8,34 @@ $conn = mysqli_connect("localhost", "root", "", "client");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-function insertData($conn, $checkoutData, $productsData, $checkoutProductsData)
+function insertData($conn, $checkoutData, $checkoutProductsData)
 {
     // Start transaction
     $conn->begin_transaction();
 
     try {
         $name = $_POST["Nom"];
-        echo $name;
         $last_name = $_POST["Prénom"];
         $email = $_POST["Email"];
         $Pays = $_POST["Pays"];
         $phone = $_POST["Téléphone"];
         $address = $_POST["address"];
         $products = $_POST["products"];
+        $productsData = json_decode($products, true);
+        echo gettype($productsData);
         // Insert data into checkout table
         $stmt = $conn->prepare("INSERT INTO checkout ( customer_id,  total_amount, Nom, Prénom, Email, Pays, Téléphone, addresse  ) VALUES (  ?, ?, ?,?, ?, ?, ?, ?)");
         $stmt->bind_param("idssssss", $checkoutData['customer_id'], $checkoutData['total_amount'], $name, $last_name, $email, $Pays, $phone, $address);
         $stmt->execute();
         $checkout_id = $stmt->insert_id;
-        echo $checkout_id;
         $stmt->close();
         // Insert data into products table
 
 
         // Insert data into checkout_products table
-        $stmt = $conn->prepare("INSERT INTO checkout_products ( checkout_id,product_id, quantity ) VALUES (?,?, ?)");
-        foreach ($checkoutProductsData as $cp) {
-            $stmt->bind_param("iii", $checkout_id, $cp['product_id'], $cp['quantity']);
+        $stmt = $conn->prepare("INSERT INTO checkout_products ( checkout_id,product_id ) VALUES (?, ?)");
+        foreach ($productsData as $cp) {
+            $stmt->bind_param("ii", $checkout_id, $cp['id']);
             $stmt->execute();
         }
         $stmt->close();
@@ -52,22 +53,6 @@ $checkoutData = [
     'total_amount' => 309.97
 ];
 
-$productsData = [
-    [
-        'name' => 'Sparkling Sapphire Earrings',
-        'description' => 'Elegant dangle earrings featuring shimmering sapphires set in sterling silver',
-        'price' => 129.99,
-        'image' => 'images/dynamic-assets/earring.jpeg',
-        'category' => 'Earrings'
-    ],
-    [
-        'name' => 'Men\'s Leather Bracelet with Silver Clasp',
-        'description' => 'A rugged yet stylish bracelet featuring braided black leather and a polished silver clasp',
-        'price' => 79.99,
-        'image' => 'images/leather_bracelet.jpeg',
-        'category' => 'Bracelets'
-    ]
-];
 
 $checkoutProductsData = [
     [
@@ -84,7 +69,7 @@ $checkoutProductsData = [
 
 // Insert data
 try {
-    insertData($conn, $checkoutData, $productsData, $checkoutProductsData);
+    insertData($conn, $checkoutData, $checkoutProductsData);
     echo "Data inserted successfully.";
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
